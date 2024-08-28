@@ -1,0 +1,54 @@
+/* Tema claro */
+.light-theme {
+    background-color: #f8f9fa;
+    color: #000000;
+}
+
+.light-theme .btn {
+    background-color: #ffffff;
+    color: #000000;
+    border-color: #000000;
+}
+
+.light-theme .container {
+    border-color: #000000;
+}
+
+.light-theme .text {
+    color: #007bff;
+}
+
+/* Tema oscuro */
+.dark-theme {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.dark-theme .btn {
+    background-color: #495057;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.dark-theme .container {
+    border-color: #ffffff;
+}
+
+.dark-theme .text {
+    color: #ff7b00;
+}
+
+.caratula img {
+    display: block;
+    margin: 0 auto;
+}
+
+.caratula {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.text {
+    font-size: 1.2em;
+    margin-top: 20px;
+}

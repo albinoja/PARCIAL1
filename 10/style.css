@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.caratula {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+    background-color: #ffffff;
+    border-bottom: 5px solid #007bff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.caratula img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.caratula h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #007bff;
+}
+
+.caratula h2 {
+    font-size: 16px;
+    margin: 2px 0;
+    color: #333;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.alert {
+    margin-top: 20px;
+}
